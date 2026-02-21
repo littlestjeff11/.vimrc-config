@@ -22,7 +22,9 @@ Plug 'vim-airline/vim-airline'
 
 call plug#end()
 
+let NERDTreeShowHidden=1
 
+nnoremap <F5> :w<CR>:!clang++ % -o %< && ./%<<CR> 
 
 
 " https://raw.githubusercontent.com/neoclide/coc.nvim/master/doc/coc-example-config.vim
