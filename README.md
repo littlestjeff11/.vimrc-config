@@ -1,3 +1,9 @@
+#### Termux:
+
+```sh
+pkg install git nodejs npm clang
+```
+
 #### Arch:
 
 ```sh 
