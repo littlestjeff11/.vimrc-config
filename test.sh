@@ -14,10 +14,14 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
-nnoremap <F5> :w<CR>:!clang++ % -o %< && ./%<<CR> 
+highlight Pmenu ctermbg=black ctermfg=white
+
+"nnoremap <F5> :w<CR>:!clang++ % -o %< && ./%<<CR> 
 
 call plug#begin()
 
+Plug 'pboettch/vim-cmake-syntax'
+Plug 'cdelledonne/vim-cmake'
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
