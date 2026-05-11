@@ -14,7 +14,8 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
-highlight Pmenu ctermbg=black ctermfg=white
+highlight Pmenu ctermbg=black ctermfg=whit
+highlight CocInlayHint ctermfg=blue ctermbg=NONE
 
 "nnoremap <F5> :w<CR>:!clang++ % -o %< && ./%<<CR> 
 
