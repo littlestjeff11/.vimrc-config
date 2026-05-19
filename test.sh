@@ -14,7 +14,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
-highlight Pmenu ctermbg=black ctermfg=whit
+highlight Pmenu ctermbg=black ctermfg=white
 highlight CocInlayHint ctermfg=blue ctermbg=NONE
 
 "nnoremap <F5> :w<CR>:!clang++ % -o %< && ./%<<CR> 
@@ -23,13 +23,11 @@ call plug#begin()
 
 Plug 'pboettch/vim-cmake-syntax'
 Plug 'cdelledonne/vim-cmake'
-Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 
 call plug#end()
 
-let NERDTreeShowHidden=1
 
 " https://raw.githubusercontent.com/neoclide/coc.nvim/master/doc/coc-example-config.vim
 
